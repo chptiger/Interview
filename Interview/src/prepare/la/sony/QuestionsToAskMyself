@@ -1,0 +1,8 @@
+J2EE project Static value and method() questions
+
+Could you over write the value for final static int variable?
+
+Is it safe to make your method static in the J2EE applications?
+
+How to open 2nd cache?
+

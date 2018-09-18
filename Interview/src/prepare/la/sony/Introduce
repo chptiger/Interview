@@ -1,0 +1,36 @@
+1. 自我介绍，
+http://shekup.blogspot.com/2016/05/introduce-yourself-software-engineer.html
+
+2. 怎么听说PlayStation的；
+
+3. 为什么想来PlayStation；
+PlayStation is a great company in the world for 
+
+4. 你遇到过的最challenging的问题以及你是如何解决的；
+       Transaction issue:
+        1. Sending email during the process and finally the transaction is failed. The Data was not updated and send wrong info the customer.
+	Solution:
+		1.Using middle-tire framework like rabbit queue.
+		2.Delay the sending email action into the table and fired the action if the transaction is successful
+
+5.https://www.indeed.com/prime/resources/talent/how-to-answer-the-10-most-asked-tech-interview-questions
+
+
+Hi!!! I have 3 years of industry experience in J2EE web development. 
+
+Currently I am working with as java engineer in UpNest. 
+
+I have designed and developed the online platform to help UpNest advisor to help agent and clients to sell / buy their houses.
+  
+I  not only provided technical support but also understood business of clients and agents & developed solutions such as data management, and analytics.
+
+Currently, I'm working with the automation project for UpNest advisor to automatically sending out sms and emails. 
+The feature is to make the advisors to focus on communicate with the customers by phone call.
+
+I completed my graduation in Computer Science in year 2014 and I have interests in traveling, hiking, and active lifestyle.  
+
+10%
+90 - 95
+
+phone interview:  
+Next week: Tuesday 1 pm
