@@ -5,8 +5,7 @@ public class ConstantsUtil {
 
 	public static final String SUCCESS = "Success";
 	public static final String FAIL = "Fail";
-	
-	
+
 	public static boolean isPrime(int n) {
 
 		for (int i = 2; 2 * i < n; i++) {
