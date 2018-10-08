@@ -1,5 +1,8 @@
 package prepare.la.hulu;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.junit.Test;
 
 /*
@@ -16,8 +19,12 @@ public class SubarraySumEqualsK_560 {
 		int[] arr = { 2, 4, -1, -3, 5, 7, 9, -3 };
 		int target = 13;
 		System.out.println(findIndexSubarray(arr, target));
+		System.out.println(findIndexSubarrayConstant(arr, target));
 	}
 
+	/**
+	 * Time Complexity: O(n^2)
+	 */
 	public static int findIndexSubarray(int[] arr, int target) {
 		int count = 0;
 		for (int i = 0; i < arr.length; i++) {
@@ -31,4 +38,24 @@ public class SubarraySumEqualsK_560 {
 		}
 		return count;
 	}
+	
+	/**
+	 * Time Complexity: O(n)
+	 * https://leetcode.com/problems/subarray-sum-equals-k/solution/?page=2
+	 * 
+	 */
+	public static int findIndexSubarrayConstant(int[] arr, int target) {
+		int count = 0;
+		Map<Integer, Integer> map = new HashMap();
+		int sum = 0;
+		for(int i : arr) {
+			sum += i;
+			if(map.containsKey(sum - target)) {
+				count += map.get(sum - target);
+			}
+			map.put(i, map.getOrDefault(i, 0) + 1);
+		}
+		return count;
+	}
+	
 }
