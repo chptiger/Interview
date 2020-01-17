@@ -1,4 +1,4 @@
-package prepare.la.hulu;
+package companies.la.hulu;
 
 import java.util.HashMap;
 import java.util.Map;

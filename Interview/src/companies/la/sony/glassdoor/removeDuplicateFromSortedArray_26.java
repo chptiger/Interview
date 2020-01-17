@@ -1,4 +1,4 @@
-package prepare.la.sony.glassdoor;
+package companies.la.sony.glassdoor;
 
 import java.util.HashSet;
 import java.util.Set;

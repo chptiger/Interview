@@ -1,4 +1,4 @@
-package prepare.la.sony.glassdoor;
+package companies.la.sony.glassdoor;
 
 import org.junit.Assert;
 import org.junit.Test;

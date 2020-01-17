@@ -1,7 +1,4 @@
-package prepare.la.sony.glassdoor;
-
-import java.util.HashSet;
-import java.util.Set;
+package companies.la.sony.glassdoor;
 
 import org.junit.Assert;
 import org.junit.Test;
